@@ -17,6 +17,7 @@ public class ApplicationContextTest {
 //		String configLocation = "application-bean-post-processor.xml";
 //		String configLocation = "application-parent-bean.xml";
 		
+		@SuppressWarnings("resource")
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(configLocation);
 		
 //		System.out.println("alias-hello -> " + applicationContext.getBean("alias-hello"));
